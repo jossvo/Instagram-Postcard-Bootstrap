@@ -1,0 +1,139 @@
+body{
+
+}
+.header{
+    background-color: rgb(232, 230, 230);
+    font-family: "DM Sans";
+    display: flex;
+    margin: 0%;
+    padding-right: 0%;
+    width: 100%;
+}
+.header img{
+    height: 40px;
+    margin: 1%;
+    
+}
+.header h1{
+    height: 100%;
+    margin: 1%;
+    width: 78%;
+}
+.createpost{
+    height: 30%;
+    margin-top: 1.2%;
+    margin-bottom: 1.2%;
+    margin-right: 1.2%;
+    width: 12%;
+}
+.createpost a{
+    height: 40px;
+    margin: auto;
+}
+.btn-group{
+    height: 40px;
+    margin-top: 1.2%;
+    margin-bottom: 1.2%;
+    margin-right: 1.2%;
+    width: 5%;
+}
+.toggle-box{
+    font-size: 1.5rem;
+    width: 100%;
+    text-align: center;
+    margin-top: 3%;
+}
+.toggle-box label{
+    background-color: transparent ;
+    color: transparent;
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    margin: 0%;
+}
+.fa-table-cells {
+    color: darkgray;
+    left: 50%;
+    text-align: right;
+  }
+  #toggle:checked ~ .fa-table-cells {
+    color: black;
+    left: 50%;
+    text-align: right;
+  }
+.fa-fa-square {
+    color: black;
+    right: 50%;
+    text-align: left;
+  }
+  #toggle:checked ~ .fa-square {
+    color: darkgray;
+    right: 50%;
+    text-align: left;
+  }
+
+.grid-container{
+    margin: auto;
+    margin-top: 2%;
+    width: 90%;
+  }
+  #toggle:checked ~ .grid-container {
+    display: none;
+  }
+.col-4{
+    margin-bottom: 1%;
+    width: 33.33%;
+}
+.col-4 img{
+    height: auto;
+    width: 100%;
+}
+
+.single-container{
+    width: 50%;
+    margin: auto;
+    visibility:hidden;
+  }
+  #toggle:checked ~ .single-container {
+    visibility:visible;
+  }
+
+.single-container img{
+    height: auto;
+    width: 100%;
+    margin: 0%;
+}
+.card{
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+.card-header{
+    display: flex;
+    padding: 0%;
+}
+.card-header h1{
+    font-size: 1em;
+    width: 80%;
+    text-align: left;
+    padding: 2%;
+    margin: 0%;
+}
+.card-header p{
+    font-size: .7em;
+    width: 32%;
+    text-align: right;
+    padding: 3%;
+    margin: 0%;
+}
+
+.card-body{
+    padding: 0%;
+}
+.card-footer h1{
+    text-align: left;
+    font-size: .8em;
+}
+.card-footer p{
+    text-align: justify;
+    font-size: .8em;
+}
